@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EcoTrack</string>
+
+    <!-- Dashboard -->
+    <string name="greeting">Hello, %1$s!</string>
+    <string name="greeting_placeholder">Hello!</string>
+    <string name="streak_days">🔥 %1$d day streak</string>
+    <string name="streak_placeholder">🔥 0 day streak</string>
+    <string name="weekly_progress">Weekly Goal Progress</string>
+    <string name="recent_activities">Recent Activities</string>
+    <string name="no_activities">No activities logged yet. Tap + to get started!</string>
+    <string name="log_activity">Log Activity</string>
+
+    <!-- Log Activity -->
+    <string name="category">Category</string>
+    <string name="description">Description</string>
+    <string name="quantity">Quantity</string>
+    <string name="unit">Unit</string>
+    <string name="carbon_preview">Estimated: %1$s</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="activity_logged">Activity logged!</string>
+    <string name="invalid_input">Please fill in all required fields.</string>
+
+    <!-- Analytics -->
+    <string name="last_7_days">Last 7 days</string>
+    <string name="last_30_days">Last 30 days</string>
+
+    <!-- Tips -->
+    <string name="no_tips">Log some activities to receive personalised tips.</string>
+    <string name="refresh_tips">Refresh tips</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_dashboard">Home</string>
+    <string name="nav_analytics">Analytics</string>
+    <string name="nav_tips">Tips</string>
+</resources>

@@ -7,3 +7,6 @@
 build/
 app/build/
 app/libs/
+*.tflite
+*.jks
+google-services.json
