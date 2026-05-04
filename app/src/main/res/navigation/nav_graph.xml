@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.ecotrack.ui.dashboard.DashboardFragment"
+        android:label="@string/nav_dashboard"
+        tools:layout="@layout/fragment_dashboard">
+
+        <action
+            android:id="@+id/action_dashboard_to_logActivity"
+            app:destination="@id/logActivityFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/logActivityFragment"
+        android:name="com.ecotrack.ui.log.LogActivityFragment"
+        android:label="Log Activity"
+        tools:layout="@layout/fragment_log_activity" />
+
+    <fragment
+        android:id="@+id/analyticsFragment"
+        android:name="com.ecotrack.ui.analytics.AnalyticsFragment"
+        android:label="@string/nav_analytics"
+        tools:layout="@layout/fragment_analytics" />
+
+    <fragment
+        android:id="@+id/tipsFragment"
+        android:name="com.ecotrack.ui.tips.TipsFragment"
+        android:label="@string/nav_tips"
+        tools:layout="@layout/fragment_tips" />
+
+</navigation>
